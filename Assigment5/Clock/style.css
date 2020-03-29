@@ -12,3 +12,10 @@ body{
     padding: 0px 5px 0px 0px;
     font-size: 50px;   
 }
+#validators {
+    opacity: 0.5;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
