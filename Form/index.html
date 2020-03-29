@@ -50,7 +50,7 @@
 <main>
     <div class="container">
     <h3>New Product Form</h3> 
-    <form>
+    <form class="form_product">
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputproductnumber">Product Number</label>
@@ -86,12 +86,12 @@
             <div class="form-group col-md-6">
               <label for="quanititinstock">Date Supplied</label>
              
-              <input type="text" class="form-control" id="inputquanitityinstock"  name="input" placeholder="YYYY-MM-DD" required 
-pattern="(?:19|20)\[0-9\]{2}-(?:(?:0\[1-9\]|1\[0-2\])-(?:0\[1-9\]|1\[0-9\]|2\[0-9\])|(?:(?!02)(?:0\[1-9\]|1\[0-2\])-(?:30))|(?:(?:0\[13578\]|1\[02\])-31))" 
+              <input type="text" class="form-control" id="form_date"  name="form_date" placeholder="YYYY-MM-DD" required 
+ 
 title="Enter a date in this format YYYY-MM-DD"/>
-<label title="Enteravaliddate">Enter a valid date</label>
+<label title="Enteravaliddate" >Enter a valid date</label>
             </div>
-  
+            <!-- pattern="(?:19|20)\[0-9\]{2}-(?:(?:0\[1-9\]|1\[0-2\])-(?:0\[1-9\]|1\[0-9\]|2\[0-9\])|(?:(?!02)(?:0\[1-9\]|1\[0-2\])-(?:30))|(?:(?:0\[13578\]|1\[02\])-31))" -->
           </div>
          <div style="float: right;">
           <button type="reset" class="btn btn-primary">Reset</button>
@@ -108,5 +108,7 @@ title="Enter a date in this format YYYY-MM-DD"/>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="./JS/scriptproduct.js"></script>
 </body>
 </html>
