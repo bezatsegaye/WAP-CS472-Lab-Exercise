@@ -1,0 +1,26 @@
+
+/* Body of Html page background color and size is shown on the body enclose brace */
+body{
+    background-image: url(/images/white_and_pink.jpg) ;
+    background-size: cover;
+}
+/* The name of the owner of the page kept on the element h1 */
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-shadow : 2px 2px gray;
+}
+span {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    color: chocolate;
+}
+/* this line indicate every paragraph of the page style */
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: darkblue;
+}

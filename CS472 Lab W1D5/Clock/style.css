@@ -1,0 +1,21 @@
+
+body{
+    background: black;
+}
+.clock{
+    position: absolute;
+    top :50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    border:1px solid #ccc;
+    padding: 0px 5px 0px 0px;
+    font-size: 50px;   
+}
+#validators {
+    opacity: 0.5;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
