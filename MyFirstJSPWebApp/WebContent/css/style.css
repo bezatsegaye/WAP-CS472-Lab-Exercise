@@ -1,0 +1,36 @@
+        #nav-bar{
+            overflow: auto;
+            background-color: gray;
+            position: relative;
+            
+        }
+        li{
+            display: inline;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #form{
+            position:absolute;
+            top: 10px;
+            right: 10px;
+           
+        }
+        #cont {
+            width: 1000px;
+            height: 500px;
+            margin: auto;
+           
+        }
+        h1{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #title{
+            font-size: 25px;
+            font-weight:bold;
+        }
+        footer{
+         background-color: gray;
+         width:100px
+        }
+    
